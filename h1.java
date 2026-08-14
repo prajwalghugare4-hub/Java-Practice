@@ -8,10 +8,11 @@ class A
              int temp=nums[i];
              nums[i]=nums[n-i-1];
              nums[n-i-1]=temp;
+             i++;
             }
         System.out.print("Reversed array:");
         for(i=0;i<n;i++){
-            System.out.print(nums[i]);
+            System.out.print(nums[i]+" ");
         }
     }
      public static void main(String[]args){
