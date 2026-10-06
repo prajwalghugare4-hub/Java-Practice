@@ -1,13 +1,9 @@
 package Sorting;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
-
-import static java.util.Collections.swap;
-
-public class Seletcion {
+public class Selection {
 
 
     static void sort(ArrayList<Integer> nums){
@@ -22,7 +18,7 @@ public class Seletcion {
     }
 
     public static void main(String[] args) {
-        ArrayList nums=new ArrayList<>();
+        ArrayList nums=new ArrayList<Integer>(5);
         for(int i= 5;i>=0;i--){
             nums.add(i);
         }
